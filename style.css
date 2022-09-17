@@ -1,0 +1,48 @@
+
+.container{
+  background-color: rgba(5, 196, 107, 1);;
+  height: 100%;
+  width: 100%;
+} 
+
+#main{
+  background-color: white;
+  height: 100%;
+  display: block;
+  margin: 50px 300px;
+  padding: 20px;
+}
+
+body {
+  display: block;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 15px;
+}
+
+.input-group, label{
+  display: block;
+  text-align: left;
+  padding: 5px;
+}
+
+
+
+.btn {
+  border-radius: 5px;
+  font-size: 21px;
+  width: 20%;
+  background-color: #05c46b;
+  border-color: gray;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.btn:hover{
+  color: white;
+  transition: color 1s linear;
+}

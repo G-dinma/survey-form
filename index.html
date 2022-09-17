@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andela Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="header">
+      <h1> Andela Survey Form</h1>
+      <div id="main">
+        <!--form-->
+        <form action="" id="survey-form">
+          <!--input-->
+          <div class="input-group">
+            <label for="name">Name</label>
+            <input 
+              type="text" 
+              name="name" 
+              id="name"
+              placeholder="Enter your name"
+              required>
+            <label for="email">Email</label>
+            <input 
+              type="text" 
+              name="email" 
+              id="email"
+              placeholder="Enter your email"
+              required>
+            <label for="age">Age</label>
+            <input 
+              type="number" 
+              name="age" 
+              placeholder="Enter your age"
+              required>
+          </div>
+          <!--questions-->
+          <div class="input-group">
+            <p id="quest1">Which option best describes you?</p>
+            <select name="profession" id="selectlist">
+              <option value="student">Student</option>
+              <option value="intern">Intern</option>
+              <option value="professional">Professional</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <p id="quest2">
+              Would you recommend Andela to a friend?
+            </p>
+            <label for="confirm">
+              <input type="radio" name="confirm id="yes"> Yes
+            </label>
+            <label for="confirm">
+              <input type="radio" name="confirm" id="no"> No
+            </label>
+            <label for="confirm">
+              <input type="radio" name="confirm" id="maybe"> Maybe
+            </label>
+          </div>
+          <!--checbox-->
+          <div class="inputgroup">
+            <p id="checkbox">
+              Languages and Frameworks known <h6>(check all that apply)</h6>
+            </p> 
+            <label for="checkbox">
+              <input type="checkbox" name="checkbox" id="c"> C
+            </label>
+            <label for="checkbox">
+              <input type="checkbox" name="checkbox" id="c">C++
+            </label>
+            <label for="checkbox">
+              <input type="checkbox" name="checkbox" id="c++">C#
+            </label>
+            <label for="checkbox">
+              <input type="checkbox" name="checkbox" id="c#">Java
+            </label>
+            <label for="checkbox">
+              <input type="checkbox" name="checkbox" id="java">Javascript
+            </label>
+            <label for="checkbox">
+              <input type="checkbox" name="checkbox" id="python">Python
+            </label>
+            <label for="checkbox">
+              <input type="checkbox" name="checkbox" id="react">React
+            </label>
+            <label for="checkbox">
+              <input type="checkbox" name="checkbox" id="angular">Angular
+            </label>
+            <label for="checkbox">
+              <input type="checkbox" name="checkbox" id="django">Django
+            </label>
+            <label for="checkbox">
+              <input type="checkbox" name="checkbox" id="spring">Spring
+            </label>
+          </div>
+          <!--textarea-->
+          <div class="input-group">
+            <p id="quest3">
+              Any comments or suggestions
+            </p>
+            <textarea name="feedback" id="feedback" cols="30" rows="5"></textarea>
+          </div>
+          <!--button-->
+          <div class="input-group">
+            <button type="submit" id="submit" class="btn">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
